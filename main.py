@@ -7,7 +7,7 @@ intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
-CANAL_PERMITIDO_ID = 123456789012345678  # troque pelo ID do canal
+CANAL_PERMITIDO_ID = 1460354085470605525  # troque pelo ID do canal
 
 @client.event
 async def on_ready():
